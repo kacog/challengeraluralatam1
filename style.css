@@ -198,9 +198,9 @@ footer {
     text-align: center;
     font-size: 80%;
     font-weight: 300;
-    top: 870px;
-    right: 50px;
-    left: 100px;
+    top: 650px;
+    right: 10px;       
+    left: 750px; 
         
 }
 
@@ -292,9 +292,9 @@ footer img {
         font-weight: 300;
         text-align: center;
         margin: 20px 20px 20px 20px;
-        top: 1500px;
+        top: 650px;
         right: 10px;       
-        left: 290px;                                  
+        left: 200px;                                  
     
     }
 
@@ -329,8 +329,8 @@ footer img {
         font-size: 80%;
         font-weight: 300;
         top: 900px;
-        right: 50px;
-        left: 500px;
+        right: 10px;       
+        left: 150px; 
             
     }
     
