@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="resetstyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="Logo.svg">
+    <title>Encriptador | Alura Challenger </title>
+</head>
+
+
+<body>
+
+    <header>
+        <img class="logo" src="Logo.svg" alt="LogoDeAlura" >
+    </header>    
+
+    <main>
+
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion"><img class="signo" src="Group.jpg">Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptador</button>
+                <button class="btn-deseencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+
+                <div class="Container">
+
+                    <p class="Text_1">Ningún mensaje fue encontrado</p>
+                    <p class="Text_2">Ingresa el texto que desees encriptar o desencriptar</p>
+                    
+                </div>
+
+            </div>
+            <div>
+                <button class="copiar" onclick="copiartexto()">Copiar</button>
+            </div>    
+        </section>
+
+    </main>
+    
+
+</body>
+
+<footer>
+    <p class="footer-name">&copy Kevin Cogollo Alvarado - 2024</p>
+    <div class="footer-iconos">
+        <a href="https://github.com/kacog" target="_blank"><img src="github-mark.png" alt="Github-logo"></a>
+        <a href="https://www.linkedin.com/in/kevincogolloalvarado" target="_blank"><img src="linkedin-svgrepo-com.svg" alt="Linkedin-log"></a>
+        <a href="https://app.aluracursos.com/user/kvnndrs" target="_blank"><img src="alura-icon.png" alt="Alura Icon"></a>
+    </div>
+</footer>
+
+<script src="appencriptador.js"></script>
+
+
+</html>
