@@ -197,10 +197,12 @@ footer {
     padding: 0.5% 0 0.5%;
     text-align: center;
     font-size: 80%;
+    width: 100%;
     font-weight: 300;
-    top: 650px;
+    text-align: center;
+    top: 850px;
     right: 10px;       
-    left: 750px; 
+    left: 10px; 
         
 }
 
@@ -292,9 +294,9 @@ footer img {
         font-weight: 300;
         text-align: center;
         margin: 20px 20px 20px 20px;
-        top: 650px;
+        top: 1500px;
         right: 10px;       
-        left: 200px;                                  
+        left: 290px;                                  
     
     }
 
@@ -317,20 +319,25 @@ footer img {
 
 }
 
-@media screen and (min-width:490px) {
+@media screen and (min-width:481px)  and (max-width: 1210px) {
 
     footer {
-        background-color: #F3F5FC;
+
+        background-color: none;
         padding-top: 20px;
         position: absolute;
         bottom: 0;
         padding: 0.5% 0 0.5%;
         text-align: center;
         font-size: 80%;
+        width: 100%;
         font-weight: 300;
-        top: 900px;
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+        top: 850px;
         right: 10px;       
-        left: 150px; 
+        left: 290px;   
+
             
     }
     
